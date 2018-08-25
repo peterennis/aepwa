@@ -10,12 +10,13 @@
     "build": "stencil build",
     "devWithSW": "stencil build --dev --service-worker --watch --serve",
     "start": "stencil build --dev --watch --serve",
+    "start.sw": "npm run start --service-worker",
     "test": "jest",
     "test.watch": "jest --watch"
   },
   "dependencies": {
-    "@ionic/core": "^4.0.0-alpha.8",
-    "@stencil/core": "^0.10.0"
+    "@ionic/core": "^4.0.0-beta.3",
+    "@stencil/core": "^0.11.4"
   },
   "devDependencies": {
     "@types/jest": "^22.2.2",
