@@ -1,9 +1,9 @@
 {
-  "name": "@ionic/pwa-toolkit",
+  "name": "@adaept/aepwa",
   "private": true,
-  "version": "0.0.1",
-  "author": "Ionic Team",
-  "description": "Ionic PWA Toolkit",
+  "version": "0.1.0",
+  "author": "adaept",
+  "description": "adaept PWA",
   "license": "MIT",
   "files": [
     "dist/"
@@ -15,7 +15,7 @@
     "test.watch": "stencil test --spec --e2e --watch"
   },
   "dependencies": {
-    "@ionic/core": "4.0.0-beta.13",
-    "@stencil/core": "0.14.0-5"
+    "@ionic/core": "4.6.0",
+    "@stencil/core": "1.1.3"
   }
 }

@@ -1,11 +1,11 @@
-import { Component, Prop, Listen } from '@stencil/core';
+import { Component, Prop, Listen, h } from '@stencil/core';
 
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css'
 })
 export class AppRoot {
-  
+
   @Prop({ connect: 'ion-toast-controller' }) toastCtrl: HTMLIonToastControllerElement;
 
   /**
