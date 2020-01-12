@@ -1,9 +1,9 @@
 {
   "name": "@adaept/aepwa",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "adaept",
-  "description": "adaept PWA",
+  "description": "adaept PWA starter",
   "license": "MIT",
   "files": [
     "dist/"
@@ -15,15 +15,15 @@
     "test.watch": "stencil test --spec --e2e --watch"
   },
   "dependencies": {
-    "@ionic/core": "4.6.0",
-    "@stencil/core": "1.1.5",
+    "@ionic/core": "4.11.7",
+    "@stencil/core": "1.8.5",
     "workbox-build": "4.3.1"
   },
   "devDependencies": {
-    "@types/jest": "24.0.15",
-    "@types/puppeteer": "1.12.4",
-    "jest": "24.8.0",
-    "jest-cli": "24.8.0",
-    "puppeteer": "1.17.0"
+    "@types/jest": "24.0.25",
+    "@types/puppeteer": "2.0.0",
+    "jest": "24.9.0",
+    "jest-cli": "24.9.0",
+    "puppeteer": "2.0.0"
   }
 }
